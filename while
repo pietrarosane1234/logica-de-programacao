@@ -1,0 +1,123 @@
+//numero 1
+let nome = prompt("Digite seu nome de usuário:")
+
+while (nome === "" || nome === " ") {
+  console.log("Nome inválido. Tente novamente.")
+  nome = prompt("Digite seu nome de usuário:")
+}
+console.log("Bem-vindo, " + nome + "!")
+
+//numero 2
+let nome = prompt("Digite seu nome de usuário:")
+
+while (nome === "" || nome === " ") {
+  console.log("Nome inválido. Tente novamente.")
+  nome = prompt("Digite seu nome de usuário:")
+}
+
+console.log("Bem-vindo, " + nome + "!")
+//numero 3
+let senha = prompt("Digite sua senha:")
+let confirmacao = prompt("Confirme sua senha:")
+
+while (senha !== confirmacao) {
+  console.log("As senhas não coincidem.")
+  confirmacao = prompt("Confirme sua senha:")
+}
+
+console.log("Senha confirmada com sucesso!")
+//numero 4
+let usuario = prompt("Digite o usuário:")
+let senha = Number(prompt("Digite a senha:"))
+
+while (usuario !== "admin" || senha !== 1234) {
+  console.log("Dados incorretos.");
+  usuario = prompt("Digite o usuário:")
+  senha = Number(prompt("Digite a senha:"))
+}
+
+console.log("Login efetuado com sucesso!")
+//numero 5
+let usuario = prompt("Digite o usuário:")
+let senha = Number(prompt("Digite a senha:"))
+
+while (usuario !== "admin" || senha !== 1234) {
+  console.log("Usuário ou senha incorretos.")
+  usuario = prompt("Digite o usuário:")
+  senha = Number(prompt("Digite a senha:"))
+}
+
+console.log("Login efetuado com sucesso!")
+//numero 6
+let tentativas = 3
+
+while (tentativas > 0) {
+  let usuario = prompt("Digite o usuário:")
+  let senha = Number(prompt("Digite a senha:"))
+
+  if (usuario === "admin" && senha === 1234) {
+    console.log("Login efetuado com sucesso!")
+    break;
+  } else {
+    tentativas--
+    console.log("Usuário ou senha incorretos.")
+  }
+}
+
+if (tentativas === 0) {
+  console.log("Acesso bloqueado.")
+}
+//numero 7
+let cadastroUsuario = prompt("Cadastre seu nome de usuário:")
+let cadastroSenha = prompt("Cadastre sua senha:")
+
+let usuario = prompt("Digite seu nome de usuário:")
+let senha = prompt("Digite sua senha:")
+
+while (usuario !== cadastroUsuario || senha !== cadastroSenha) {
+  console.log("Usuário ou senha incorretos.")
+  usuario = prompt("Digite seu nome de usuário:")
+  senha = prompt("Digite sua senha:")
+}
+
+console.log("Login efetuado com sucesso!")
+//numero 8
+let usuarioSalvo = "admin"
+let senhaSalva = "1234"
+
+let usuario = prompt("Digite o usuário:")
+let senha = prompt("Digite a senha:")
+
+while (usuario !== usuarioSalvo || senha !== senhaSalva) {
+  console.log("Usuário ou senha incorretos.")
+
+  let esqueci = prompt("Esqueceu a senha? (sim/não)")
+
+  if (esqueci.toLowerCase() === "sim") {
+    console.log("Sua senha é: " + senhaSalva)
+  }
+
+  usuario = prompt("Digite o usuário:")
+  senha = prompt("Digite a senha:")
+}
+
+console.log("Login efetuado com sucesso!")
+//numero 9
+let usuario = prompt("Digite o usuário:")
+let senha = prompt("Digite a senha:")
+
+while (usuario !== "admin" || senha !== "1234") {
+  console.log("Usuário ou senha incorretos.")
+  usuario = prompt("Digite o usuário:")
+  senha = prompt("Digite a senha:")
+}
+
+console.log("Você está logado!")
+
+let comando = prompt("Digite 'sair' para fazer logout:")
+
+while (comando !== "sair") {
+  comando = prompt("Digite 'sair' para fazer logout:")
+}
+
+console.log("Logout efetuado com sucesso!")
