@@ -1,0 +1,206 @@
+Desafio 1
+let idade = prompt("digite a sua idade: ")
+if(idade < 18){
+console.log("você é menor de idade")
+}
+else{
+console.log("você é de maior ")
+}
+Desafio 2
+
+let data = new Date();
+let hora = data.getHours()
+
+let saudacao
+if (hora >= 6 && hora < 12) {
+    saudacao = "Bom dia!"
+} else if (hora >= 12 && hora < 18) {
+    saudacao = "Boa tarde!"
+} else {
+    saudacao = "Boa noite!"
+}
+
+
+console.log(saudacao)
+alert(saudacao)
+
+desafio 3
+
+
+let idade = parseInt(prompt("Digite sua idade:"))
+
+if (idade >= 16) {
+    alert("Entrada permitida. Aproveite o evento!")
+} else {
+    alert("Entrada negada. Você deve ter pelo menos 16 anos.")
+}
+
+Desafio 4
+
+let num1 = parseFloat(prompt("Digite o primeiro número:"))
+let num2 = parseFloat(prompt("Digite o segundo número:"))
+
+
+if (num1 > num2) {
+    alert("O maior número é: " + num1)
+} else if (num2 > num1) {
+    alert("O maior número é: " + num2)
+} else {
+    alert("Os números são iguais.")
+}
+Desafio 5
+
+let temperatura = prompt("Digite a temperatura em °C:")
+temperatura = parseFloat(temperatura)
+
+
+if (temperatura < 15) {
+    console.log("Frio")
+} else if (temperatura >= 15 && temperatura <= 25) {
+    console.log("Térmico")
+} else {
+    console.log("Quente")
+}
+
+Desafio 6
+let palavra = prompt("Digite uma palavra:")
+
+if (palavra === "felicidade") {
+    console.log("Palavra correta.")
+} else {
+    console.log("Palavra incorreta")
+}
+
+Desafio 7
+
+let quantidadeMoedas = prompt("Digite a quantidade de moedas:")
+quantidadeMoedas = parseInt(quantidadeMoedas)
+if (quantidadeMoedas < 10) {
+    console.log("Poucas moedas");
+} else if (quantidadeMoedas >= 10 && quantidadeMoedas <= 20) {
+    console.log("Quantidade média")
+} else {
+    console.log("Muitas moedas")
+}
+
+Desafio 8
+let temperatura = prompt("Digite a temperatura em °C:")
+temperatura = parseFloat(temperatura)
+
+// Verifica a temperatura usando else if
+if (temperatura > 30) {
+    console.log("Muito quente")
+} else if (temperatura >= 20 && temperatura <= 30) {
+    console.log("Calor");
+} else {
+    console.log("Frio");
+}
+
+Desafio 9
+let numero = prompt("Digite um número:");
+numero = parseFloat(numero);
+
+// Verifica se o número é positivo ou negativo
+if (numero > 0) {
+    console.log("Número positivo");
+} else if (numero < 0) {
+    console.log("Número negativo");
+} else {
+    console.log("O número é zero");
+}
+
+Desafio 10
+let nota = prompt("Digite a nota do aluno:");
+nota = parseFloat(nota);
+if (nota >= 7) {
+    console.log("Aprovado");
+} else {
+    console.log("Reprovado");
+}
+
+Desafio 11
+// Solicita o nome do animal ao usuário
+let animal = prompt("Digite o nome de um animal:");
+
+// Verifica se o animal está na lista de opções
+if (animal === "Cachorro") {
+    console.log("Animal listado: Cachorro");
+} else if (animal === "Gato") {
+    console.log("Animal listado: Gato");
+} else if (animal === "Pássaro") {
+    console.log("Animal listado: Pássaro");
+} else {
+    console.log("Animal não listado");
+}
+
+Desafio 12
+// Solicita o nome do dia da semana
+let diaSemana = prompt("Digite o dia da semana:").toLowerCase();
+
+// Verifica se é fim de semana ou dia útil usando else if
+if (diaSemana === "sábado" || diaSemana === "domingo") {
+    console.log("Fim de semana");
+} else if (diaSemana === "segunda" || diaSemana === "terça" || diaSemana === "quarta" || diaSemana === "quinta" || diaSemana === "sexta") {
+    console.log("Dia útil");
+} else {
+    console.log("Dia inválido");
+}
+
+Desafio 13
+// Solicita a quantidade de anos de experiência
+let anosExperiencia = prompt("Quantos anos de experiência em programação você tem?");
+
+// Converte o valor para número
+anosExperiencia = parseInt(anosExperiencia);
+
+// Verifica se a pessoa é experiente ou iniciante usando else if
+if (anosExperiencia > 2) {
+    console.log("Experiente");
+} else {
+    console.log("Iniciante");
+}
+
+Desafio 14
+// Solicita um número ao usuário
+let numero = prompt("Digite um número:");
+
+// Converte o valor para número
+numero = parseInt(numero);
+
+// Verifica se o número está dentro do intervalo de 10 a 20 usando else if
+if (numero >= 10 && numero <= 20) {
+    console.log("Dentro do intervalo");
+} else {
+    console.log("Fora do intervalo");
+}
+Desafio 15
+// Solicita a idade da pessoa
+let idade = prompt("Digite sua idade:");
+
+// Converte o valor para número
+idade = parseInt(idade);
+
+// Verifica se a pessoa pode tirar a carteira de motorista
+if (idade >= 18) {
+    console.log("Você pode tirar a carteira de motorista.");
+} else {
+    console.log("Você não pode tirar a carteira de motorista.");
+}
+
+Desafio 16
+// Solicita um número ao usuário
+let numero = prompt("Digite um número:");
+
+// Converte o valor para número
+numero = parseFloat(numero);
+
+// Verifica se o número é positivo, negativo ou zero usando else if
+if (numero > 0) {
+    console.log("Positivo");
+} else if (numero < 0) {
+    console.log("Negativo");
+} else {
+    console.log("Zero");
+}
+
+

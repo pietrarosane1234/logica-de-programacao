@@ -1,0 +1,85 @@
+Programiz
+1- Quantos meses há em um ano?
+
+1. let respostaCorreta = 0;
+2. let respostaIncorreta = 0;
+3.
+4. // Pergunta 1
+5. console.log(&quot;Quantos meses há em um ano?&quot;);
+6. console.log(&quot;A - 12 meses&quot;); // Resposta correta
+7. console.log(&quot;B - 10 meses&quot;); // Resposta incorreta
+8. let pergunta1 = prompt(&quot;Digite a alternativa correta: &quot;);
+9. if (pergunta1 == &quot;A&quot; || pergunta1 == &quot;12&quot;) {
+10. console.log(&quot;Alternativa correta!&quot;);
+11. respostaCorreta++;
+12. } else {
+13. console.log(&quot;Alternativa Errada!&quot;);
+14. respostaIncorreta++;
+15. }
+
+2 – Quantos dias há em uma semana?
+// Pergunta 2
+console.log(&quot;\nQuantos dias há em uma semana?&quot;);
+console.log(&quot;A - 5 dias&quot;); // Resposta incorreta
+console.log(&quot;B - 7 dias&quot;); // Resposta correta
+let pergunta2 = prompt(&quot;Digite a alternativa correta: &quot;);
+if (pergunta2 == &quot;B&quot; || pergunta2 == &quot;7&quot;) {
+console.log(&quot;Alternativa correta!&quot;);
+respostaCorreta++;
+} else {
+console.log(&quot;Alternativa Errada!&quot;);
+respostaIncorreta++;
+
+}
+3 – O que usamos para ouvir música?
+// Pergunta 3
+console.log(&quot;\nO que usamos para ouvir música?&quot;);
+console.log(&quot;A - Fone de ouvido&quot;); // Resposta correta
+console.log(&quot;B - Relógio&quot;); // Resposta incorreta
+let pergunta3 = prompt(&quot;Digite a alternativa correta: &quot;);
+if (pergunta3 == &quot;A&quot;) {
+console.log(&quot;Alternativa correta!&quot;);
+respostaCorreta++;
+} else {
+console.log(&quot;Alternativa Errada!&quot;);
+respostaIncorreta++;
+}
+4 – Quem pintou a Mona Lisa?
+// Pergunta 4
+console.log(&quot;\nQuem pintou a Mona Lisa?&quot;);
+console.log(&quot;A - Leonardo da Vinci&quot;); // Resposta correta
+console.log(&quot;B - Vincent van Gogh&quot;); // Resposta incorreta
+let pergunta4 = prompt(&quot;Digite a alternativa correta: &quot;);
+if (pergunta4 == &quot;A&quot;) {
+console.log(&quot;Alternativa correta!&quot;);
+respostaCorreta++;
+} else {
+console.log(&quot;Alternativa Errada!&quot;);
+respostaIncorreta++;
+
+}
+5 – Quantos segundos há em um minuto?
+console.log(&quot;\nQuantos segundos há em um minuto?&quot;);
+console.log(&quot;A - 100 segundos&quot;); // Resposta incorreta
+console.log(&quot;B - 60 segundos&quot;); // Resposta correta
+let pergunta5 = prompt(&quot;Digite a alternativa correta: &quot;);
+if (pergunta5 == &quot;B&quot; || pergunta5 == &quot;60&quot;) {
+console.log(&quot;Alternativa correta!&quot;);
+respostaCorreta++;
+} else {
+console.log(&quot;Alternativa Errada!&quot;);
+respostaIncorreta++;
+}
+6 – Qual o primeiro dia da semana?
+// Pergunta 6
+console.log(&quot;\nQual o primeiro dia da semana?&quot;);
+console.log(&quot;A - Segunda-feira&quot;); // Resposta incorreta
+console.log(&quot;B - Domingo&quot;); // Resposta correta
+let pergunta6 = prompt(&quot;Digite a alternativa correta: &quot;);
+if (pergunta6 == &quot;B&quot;) {
+console.log(&quot;Alternativa correta!&quot;);
+respostaCorreta++;
+} else {
+console.log(&quot;Alternativa Errada!&quot;);
+respostaIncorreta++;
+}
