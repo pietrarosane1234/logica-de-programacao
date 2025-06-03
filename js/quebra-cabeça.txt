@@ -1,0 +1,75 @@
+Montar o Quebra-Cabeça JS
+1.
+let idade = 27;
+let categoria = &quot;&quot; // Declarar antes de usar
+
+// Classificação por idade
+if (idade &lt; 12) {
+categoria = &quot;criança&quot;
+} else if (idade &gt;= 12 &amp;&amp; idade &lt;= 18) {
+categoria = &quot;adolescente&quot;
+} else if (idade &gt; 18 &amp;&amp; idade &lt; 60) {
+categoria = &quot;adulta&quot;
+} else {
+categoria = &quot;idosa&quot;
+}
+
+console.log(&quot;Categoria: &quot; + categoria)
+
+// Exemplo de cálculo extra com idade
+if (idade &lt; 12) {
+let resultado = idade + 5
+console.log(&quot;Idade + 5: &quot; + resultado)
+}
+
+console.log(&quot;Idade final: &quot; + idade)
+2.
+let idade = 25;
+if (idade &lt; 16) {
+console.log(&quot;Não vota.&quot;)
+} else if ((idade &gt;= 16 &amp;&amp; idade &lt; 18) || idade &gt;= 70) {
+console.log(&quot;Voto facultativo.&quot;)
+} else {
+console.log(&quot;Voto obrigatório.&quot;)
+
+}
+3.
+// Declaramos a variável numero com um valor inicial
+let numero = -5;
+// Verificamos se o número é maior que 0
+if (numero &gt; 0) {
+console.log(&quot;Positivo&quot;); // Se for positivo, mostra essa mensagem
+
+// Se não for maior que 0, verificamos se é menor que 0
+} else if (numero &lt; 0) {
+console.log(&quot;Negativo&quot;); // Se for negativo, mostra essa mensagem
+
+// Se não for nem maior nem menor que 0, só pode ser zero
+} else {
+console.log(&quot;Zero&quot;); // Se for igual a zero, mostra essa mensagem
+}
+4.
+// Defina o combustível aqui (pode ser: &quot;Gasolina&quot;, &quot;Álcool&quot; ou &quot;Diesel&quot;)
+let combustivel = &quot;Gasolina&quot;;
+// Verifica qual combustível foi escolhido
+if (combustivel === &quot;Gasolina&quot;) {
+console.log(&quot;Você escolheu Gasolina&quot;);
+} else if (combustivel === &quot;Álcool&quot;) {
+console.log(&quot;Você escolheu Álcool&quot;);
+} else if (combustivel === &quot;Diesel&quot;) {
+console.log(&quot;Você escolheu Diesel&quot;);
+} else {
+console.log(&quot;Opção inválida&quot;);
+}
+5.
+// Defina a velocidade aqui para testar
+let velocidade = 75;
+// Verifica os limites de velocidade
+if (velocidade &lt;= 60) {
+console.log(&quot;Multado&quot;); // Velocidade muito baixa, pode representar infração
+} else if (velocidade &lt;= 80) {
+console.log(&quot;Dentro do limite&quot;); // Velocidade segura
+
+} else {
+console.log(&quot;Atenção&quot;); // Acima do limite
+}
