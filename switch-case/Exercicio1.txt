@@ -1,0 +1,17 @@
+1.
+let idiome = prompt("escolha um idioma (portugues, ingles, espanhol,frances):")
+switch (idioma) {
+case "portugues":
+console.log("Ola como vai você?")
+break
+case "Ingles":
+console.log("Hello How are you?")
+break
+case "Espanhol":
+console.log("Hola Cómo estás?")
+break
+case "frances":
+console.log("Bonjour! Comment ça va ?")
+break
+default: 
+console.log("Idioma não identificado")

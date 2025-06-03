@@ -1,0 +1,162 @@
+Desafio 1
+let respostaIncorreta = 0
+let respostaCorreta = 0
+
+// Pergunta 1
+console.log("Quantos meses há em um ano?")
+console.log("A - 12 meses")
+console.log("B - 10 meses")
+let pergunta1 = prompt("Digite a alternativa correta: ")
+switch (true){
+    case pergunta1 == "A" || pergunta1 == "12":
+        console.log("Alternativa correta!")
+        respostaCorreta++
+        break;
+    default:
+        console.log("Alternativa Errada!")
+        respostaIncorreta++
+        break;
+}
+Desafio 2
+
+// Pergunta 2
+console.log("Quantos dias há em uma semana?")
+console.log("A - 5 dias")
+console.log("B - 7 dias")
+let pergunta2 = prompt("Digite a alternativa correta: ")
+switch (true){
+    case pergunta2 == "B" || pergunta2 == "7":
+        console.log("Alternativa correta!")
+        respostaCorreta++
+        break;
+    default:
+        console.log("Alternativa Errada!")
+        respostaIncorreta++
+        break;
+}
+Desafio 3
+// Pergunta 3
+console.log("O que usamos para ouvir música?")
+console.log("A - Fone de ouvido")
+console.log("B - Relógio")
+let pergunta3 = prompt("Digite a alternativa correta: ")
+switch (true){
+    case pergunta3 == "A":
+        console.log("Alternativa correta!")
+        respostaCorreta++
+        break;
+    default:
+        console.log("Alternativa Errada!")
+        respostaIncorreta++
+        break;
+}
+Desafio 4
+// Pergunta 4
+console.log("Quem pintou a Mona Lisa?")
+console.log("A - Leonardo da Vinci")
+console.log("B - Vincent van Gogh")
+let pergunta4 = prompt("Digite a alternativa correta: ")
+switch (true){
+    case pergunta4 == "A":
+        console.log("Alternativa correta!")
+        respostaCorreta++
+        break;
+    default:
+        console.log("Alternativa Errada!")
+        respostaIncorreta++
+        break;
+}
+Desafio 5
+// Pergunta 5
+console.log("Quantos segundos há em um minuto?")
+console.log("A - 100 segundos")
+console.log("B - 60 segundos")
+let pergunta5 = prompt("Digite a alternativa correta: ")
+switch (true){
+    case pergunta5 == "B" || pergunta5 == "60":
+        console.log("Alternativa correta!")
+        respostaCorreta++
+        break;
+    default:
+        console.log("Alternativa Errada!")
+        respostaIncorreta++
+        break;
+}
+Desafio 6
+// Pergunta 6
+console.log("Qual o primeiro dia da semana?")
+console.log("A - Segunda-feira")
+console.log("B - Domingo")
+let pergunta6 = prompt("Digite a alternativa correta: ")
+switch(true){
+    case pergunta6 == "B":
+        console.log("Alternativa correta!")
+        respostaCorreta++
+        break;
+    default:
+        console.log("Alternativa Errada!")
+        respostaIncorreta++
+        break;
+}
+Desafio 7
+// Pergunta 7
+console.log("Qual é o maior planeta do Sistema Solar?")
+console.log("A - Júpiter")
+console.log("B - Marte")
+let pergunta7 = prompt("Digite a alternativa correta: ")
+switch(true){
+    case pergunta7 == "A":
+        console.log("Alternativa correta!")
+        respostaCorreta++
+        break;
+    default:
+        console.log("Alternativa Errada!")
+        respostaIncorreta++
+        break;
+}
+Desafio 8
+// Pergunta 8
+console.log("Quantos dias há em fevereiro em um ano não bissexto?")
+console.log("A - 28 dias")
+console.log("B - 30 dias")
+let pergunta8 = prompt("Digite a alternativa correta: ")
+switch(true){
+    case pergunta8 == "A" || pergunta8 == "28":
+        console.log("Alternativa correta!")
+        respostaCorreta++
+        break;
+    default:
+        console.log("Alternativa Errada!")
+        respostaIncorreta++
+        break;
+}
+Desafio 9
+console.log("Quantos continentes há nomundo?")
+console.log("A - 7 continentes")
+console.log("B - 5 continentes")
+let pergunta9 == prompt("Digite a alternativa correta: ")
+switch( true){
+case pergunta9 == "A" || pergunta9 == "7":
+console.log("Alternativa correta")
+respostaCorreta++
+break
+default:
+console.log("Alternativa Errada")
+respostaIncorreta++
+break
+}
+Desafio 10
+console.log("Qual é a capital do Brasil?")
+console.log("A - Braslia")
+console.log("B - Rio de Janeiro")
+let pergunta10 == prompt("Digite a alternativa correta: ")
+switch( true){
+case pergunta10 == "A" || pergunta10 == "Brasilia":
+console.log("Alternativa correta")
+respostaCorreta++
+break
+default:
+console.log("Alternativa errada")
+respostaIncorreta++
+break
+}

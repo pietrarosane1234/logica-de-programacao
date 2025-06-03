@@ -1,0 +1,44 @@
+Switch case e if else
+
+let comando = prompt("Digite um comando CMD:)
+if (comando === "dir"){
+console.log("DIR lista os arquivos do diretorio")
+} else if (comando === "cls"){
+console.log("CLS limpa a tela")
+} else if (comando === "rmdir"){
+console.log("rmdir remove um diretorio vazio")
+}else{
+console.log("comando não reconhecido")
+}
+switch (comando){
+case "dir":
+console.log("executando comando DIR")
+break
+case "cls":
+console.log("executando comando cls")
+break
+case "rmdir":
+console.log("executando comando rmdir")
+break
+default:
+console.log("Nenhuma ação executada")
+break
+
+linux
+
+let comando = prompt("Digite um comando:)
+if (comando ==="ls" || comando === "mkdir" || comando === "cd")
+switch(comando){
+case "ls":
+console.log("ls: lista oque ta dentro da pasta")
+break
+case "mkdir":
+console.log("mkdir: cria nova pasta")
+break
+case"cd":
+console.log("cd: entra em uma pasta")
+break
+}
+else{
+console.lo(""comando invalido")
+}
