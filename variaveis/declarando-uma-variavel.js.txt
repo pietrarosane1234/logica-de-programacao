@@ -1,0 +1,28 @@
+Declarando uma variável e exibindo no console
+let nome = &quot;Pietra&quot;
+console.log(nome)
+Declarando um número e exibindo no console
+let idade = 16
+console.log(idade)
+Criando uma variável booleana
+let aprendendoJavaScript = true
+console.log (aprendendoJavaScript)
+Concatenando strings
+let nome = &quot;Pietra&quot;
+let sobrenome = &quot;Rosane&quot;
+let nomecompleto = &quot;Pietra Rosane&quot;
+console.log(nomecompleto)
+Somando dois números
+let num1 = 10
+let num2 = 20
+let soma = num1 + num2
+console.log(soma)
+Multiplicando dois números
+let num1 = 5
+let num2 = 4
+console.log(num1 * num2)
+Variável de texto e número
+let cidade = &quot;sao paulo&quot;
+let habitantes = 12000000
+console.log (&quot;numero de habitantes&quot; + habitantes)
+Alterando o valor de uma variável

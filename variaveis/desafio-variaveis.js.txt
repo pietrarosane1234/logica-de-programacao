@@ -1,0 +1,12 @@
+Desafio 1
+let nome = prompt("Digite seu nome: ")
+let idade = Number(prompt( "Digite a sua idade"))
+console.log("O seu nome é, nome, "você tem" ,idade, "anos")
+let email = prompt("Digite o seu telefone: "))
+let telefone = Number (prompt( "Dogite o seu telefone: "))
+
+
+Desafio 2
+let AnoNascimento = Number(prompt("Digite o seu ano de nascimento: "))
+let AnoAtual = 2025
+console.log("sua idade é", (AnoAtual - AnoNascimento), "anos")
