@@ -1,0 +1,128 @@
+Exercícios 1 Funções JS
+1.Crie uma função que exibe a mensagem &quot;Olá, mundo!&quot; no console.
+function mensagem (mensagem){
+console.log(&quot;A mensagem é:&quot;, mensagem)
+}
+mensagem(&quot;Olá mundo!&quot;)
+2.Crie uma função chamada mostrarNome que exibe seu nome completo.
+function nome (nome){
+console.log(&quot;Seu nome é: &quot;, nome)
+}
+nome(&quot;Pietra&quot;)
+nome(&quot;Rosane&quot;)
+nome(&quot;Santos&quot;)
+nome(&quot;Vaz&quot;)
+3. Crie uma função chamada mostrarIdade que exibe sua idade.
+function idade (idade){
+console.log(&quot;Seu Idade é: &quot;, idade)
+}
+idade(&quot;16&quot;)
+4. Crie uma função chamada somarDoisNumeros que soma dois números
+fixos.
+function soma (a,b){
+let resultado = a+b
+console.log(&quot;O resultado é:&quot;, resultado)
+}
+soma(30,20)
+5. Crie uma função chamada mostrarMensagem que exibe uma mensagem
+motivacional.
+function mensagem (mensagem){
+console.log(&quot;A mensagem é:&quot;, mensagem)
+}
+
+mensagem(&quot;Você não precisa ser perfeito para começar, mas precisa começar
+para ser incrível.&quot;)
+6. Crie uma função chamada mostrarData que exibe a data de hoje.
+function data (data){
+console.log(&quot;A data é:&quot;, data)
+}
+data(&quot;06/05&quot;)
+7. Crie uma função chamada mostrarCidade que exibe o nome de uma cidade.
+function cidade (cidade){
+console.log(&quot;A cidade é:&quot;, cidade)
+}
+cidade(&quot;Ouro Preto&quot;)
+8. Crie uma função que receba um nome como parâmetro e exiba “Bem-vindo,
+[nome]!”
+function mensagem (mensagem){
+console.log(&quot;A mensagem é:&quot;, mensagem)
+}
+mensagem(&quot;Bem vindo, Pietra&quot;)
+
+9.Crie uma função que receba dois números e exiba a subtração deles.
+function subtração(a,b){
+let resultado = a-b
+console.log(&quot;O resultado é:&quot;, resultado)
+}
+subtração(30,20)
+10. Crie uma função chamada mostrarAnimalFavorito que exibe um animal.
+function animalfavorito (animalfavorito){
+console.log(&quot;O animal favorito é:&quot;, animalfavorito)
+}
+animalfavorito(&quot;Cachorro&quot;)
+11. Crie uma função que exibe &quot;Estou aprendendo JavaScript!&quot;
+
+function mensagem (mensagem){
+console.log(&quot;A mensagem é:&quot;, mensagem)
+}
+mensagem(&quot;Estou aprendendo JavaScript!&quot;)
+12. Crie uma função que recebe um número e exibe o triplo dele.
+function multiplicacao(a,b) {
+let resultado = a*b
+console.log(&quot;O resultado é:&quot;, resultado)
+}
+multiplicacao(30,3)
+13. Crie uma função que recebe um nome e uma idade, e exibe &quot;Nome:
+[nome], Idade: [idade]&quot;.
+function mensagem(nome, idade) {
+console.log(&quot;Nome:&quot;, nome)
+console.log(&quot;Idade:&quot;, idade)
+}
+mensagem(&quot;Pietra&quot;, 16)
+14. Crie uma função que exibe os números de 1 a 10 no console.
+function num(numero) {
+console.log(&quot;O número é:&quot;, numero)
+}
+num(&quot;1&quot;);
+num(&quot;2&quot;)
+num(&quot;3&quot;)
+num(&quot;4&quot;)
+num(&quot;5&quot;)
+num(&quot;6&quot;)
+num(&quot;7&quot;)
+num(&quot;8&quot;)
+num(&quot;9&quot;)
+num(&quot;10&quot;)
+
+15. Crie uma função que exibe “Aula de funções iniciada!”
+function mensagem (mensagem){
+console.log(&quot;A mensagem é:&quot;, mensagem)
+}
+mensagem(&quot;Aula de funções iniciada!&quot;)
+16. Crie uma função que recebe um número e exibe “Você digitou o número [x]”
+function exibirNumero(numero) {
+console.log(&quot;Você digitou o número&quot;, numero)
+}
+exibirNumero(6)
+17. Crie uma função que mostra o nome de um curso.
+function curso(curso) {
+console.log(&quot;O curso é:&quot;, curso)
+}
+curso(&quot;Análise e desenvolvimento de sistemas&quot;)
+18. Crie uma função que simula uma chamada com seu nome.
+function chamada(nome) {
+console.log(&quot;Chamando &quot; + nome + &quot;...&quot;)
+}
+chamada(&quot;Pietra&quot;)
+19. Crie uma função que receba uma cor favorita e exiba: “Sua cor favorita é
+[cor]”.
+function corFavorita(cor) {
+console.log(&quot;Sua cor favorita é&quot;, cor)
+}
+corFavorita(&quot;Roxo&quot;)
+20. Crie uma função que receba um país e exiba: “Você mora no [país]”.
+function mostrarPais(pais) {
+console.log(&quot;Você mora no&quot;, pais)
+}
+
+mostrarPais(&quot;Brasil&quot;)
